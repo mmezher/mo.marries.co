@@ -1,0 +1,39 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-areas: ". main .";
+
+  background-color: #c4e6a1;
+  color: #1f163c;
+  font-family: Optima;
+}
+
+div.sidebar {
+}
+
+main {
+  max-width: 40em;
+  grid-area: main;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.rsvp-link {
+  display: block;
+  background-color: #35820b;
+  color: #fff;
+  font-size:  2em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.25em;
+}
+
+section {
+  border-top: 1px solid;
+  margin: 1em 0;
+}
